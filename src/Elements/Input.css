@@ -1,0 +1,31 @@
+.input-container {
+  display: flex;
+  margin: 20px;
+  transform: translate3d(0px, 0px, -250px) scale(0.9, 0.9);
+  border-radius: 20px;
+
+  transition: 0.2s ease-in-out transform;
+}
+.input-container:hover {
+  transform: translate3d(0px, 0px, -250px);
+}
+
+.input-container label {
+  font-size: 1.2rem;
+  width: 250px;
+}
+.input-container input {
+  height: 30px;
+  width: 200px;
+  border-radius: 13px;
+  border-style: none;
+}
+.input-container input::placeholder {
+  text-align: center;
+  color: red;
+  font-size: 1rem;
+}
+.input-container input:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+}
